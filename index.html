@@ -4,18 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>Holland Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,400" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
+        <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="images/flag.png">
+                    <img class="logo-space" src="images/flag.png">
                 </div>
                 <div class="col-md-6 text-right text-uppercase">
-                    <h1>The Netherlands</h1>
+                    <h1 class="text-thin title-large">The Netherlands</h1>
                     <h4>A birds eye view</h4>
                 </div>
             </div>
@@ -27,24 +29,36 @@
             <!-- carousel -->
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Famous items in The Netherlands</h2>
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 750px)" srcset="images/tulpen-large-2x.jpg 2x, images/tulpen-large-1x.jpg" />
+                            <source media="(min-width: 500px)" srcset="images/tulpen-medium.jpg" />
+                            <img src="images/tulpen-small.jpg" alt="Tulip field at sunset">
+                        </picture>
+                        <figcaption>Grasshopper on an Akubra hat</figcaption>
+                    </figure>
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-muted">Famous items in The Netherlands</h2>
+                </div>
+            </div>
+            <div class="row text-center">
                 <div class="col-md-4">
-                    <!-- <img class="img-responsive" src="" alt=""> -->
+                    <img class="img-responsive column-image" src="images/rode-tulpen.jpg" alt="Red Tulips">
                     <h3 class="text-uppercase">Tulips</h3>
-                    <p>tulpen verhaal</p>
+                    <p class="separtion">Tulips are delightful flowers available in many colors. Tulips bloom in April and May. If youlike flowers be sure to visit the Keukenhof in april or May. Keukenhof is a park where more than <strong>7 million flower bulbs</strong> are planted every year. <a href="http://www.holland.com/global/tourism/discover-holland/traditional/tulips.htm">More information.</a></p>
                 </div>
                 <div class="col-md-4">
-                    <!-- <img class="img-responsive" src="" alt=""> -->
+                    <img class="img-responsive column-image" src="images/windmolens-langs-kanaal.jpg" alt="Windmills next to channel">
                     <h3 class="text-uppercase">Windmills</h3>
-                    <p>tulpen verhaal</p>
+                    <p class="separtion">Windmills are possibly the most well known symbol for the Netherlands. Holland still has over 1,000 historic vertical mills, more than any other country. <a href="http://www.holland.com/global/tourism/discover-holland/traditional/windmills.htm">More information.</a></p>
                 </div>
                 <div class="col-md-4">
-                    <!-- <img class="img-responsive" src="" alt=""> -->
-                    <h3 class="text-uppercase">Wooden shoes</h3>
-                    <p>tulpen verhaal</p>
+                    <img class="img-responsive column-image" src="images/twee-klompen.jpg" alt="Wooden shoes or clogs">
+                    <h3 class="text-uppercase">Wooden shoes (Clogs)</h3>
+                    <p>Clogs have been traditional footwear for hundreds of years. Some people think that the Dutch still wear clogs every day. But you are not likely to see them on the streets. <a href="http://www.holland.com/global/tourism/discover-holland/traditional/wooden-shoes.htm">More information.</a></p>
                 </div>
             </div>
         </div>

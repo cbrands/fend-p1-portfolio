@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: orange;
+    font-weight: 400;
+}
+
+hr { 
+    border-color: inherit 
+}
+
+.column-image {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.separtion {
+    margin-bottom: 20px;
+}
+
+.text-muted {
+    color: BCBBBB;
+}
+
+.text-thin {
+    font-weight: 200;
+}
+
+.logo-space {
+    margin-top: 20px;
+}
+
+.title-large {
+    font-size: 50px;
+}
