@@ -4,8 +4,8 @@ body {
     font-weight: 400;
 }
 
-hr { 
-    border-color: inherit 
+hr {
+    border-color: inherit;
 }
 
 .column-image {
@@ -39,13 +39,13 @@ hr {
         font-size: 30px;
         text-align: center;
     }
-    
+
     .subtitle {
         text-align: center;
     }
-    
+
     .logo {
-        display:block;
-        margin:auto;
+        display: block;
+        margin: auto;
     }
 }
