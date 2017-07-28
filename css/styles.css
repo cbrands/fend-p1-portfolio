@@ -33,3 +33,19 @@ hr {
 .title-large {
     font-size: 50px;
 }
+
+@media (max-width: 992px) {
+    .title-large {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .subtitle {
+        text-align: center;
+    }
+    
+    .logo {
+        display:block;
+        margin:auto;
+    }
+}
